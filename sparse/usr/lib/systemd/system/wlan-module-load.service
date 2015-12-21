@@ -1,0 +1,16 @@
+[Unit]
+Description=Load wifi module
+After=local-fs.target
+Conflicts=shutdown.target actdead.target
+
+[Service]
+Type=simple
+RemainAfterExit=yes
+ExecStartPre=-/bin/sh -c "echo 1 > /dev/wcnss_wlan"
+ExecStart=/sbin/modprobe wlan
+ExecStop=/sbin/rmmod wlan
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=basic.target

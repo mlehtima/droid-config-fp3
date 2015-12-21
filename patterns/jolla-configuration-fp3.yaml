@@ -1,0 +1,7 @@
+Description: Pattern with packages for fp3 configurations
+Name: jolla-configuration-fp3
+Requires:
+- patterns-sailfish-device-configuration-fp3
+
+Summary: Jolla Configuration fp3
+
