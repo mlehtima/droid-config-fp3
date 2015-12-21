@@ -1,0 +1,16 @@
+CPUCHECK_STRING="Qualcomm Technologies, Inc SDM632"
+
+PART_1="boot_a"
+PART_28="boot_b"
+
+PART_23="dtbo_a"
+PART_24="dtbo_b"
+
+PART_REAL_1="mmcblk0p27"
+PART_REAL_28="mmcblk0p28"
+
+PART_REAL_23="mmcblk0p23"
+PART_REAL_24="mmcblk0p24"
+
+PART_I="1"
+PART_I="1 23 24 28"

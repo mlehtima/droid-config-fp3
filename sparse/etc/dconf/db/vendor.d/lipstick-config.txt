@@ -1,0 +1,8 @@
+[desktop/lipstick-jolla-home/peekfilter]
+boundaryWidth=48
+pressDelay=800
+
+[lipstick/screen/primary]
+physicalDotsPerInch=427
+width=1080
+height=2160
